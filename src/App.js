@@ -1,24 +1,30 @@
-import './App.css';
-import BestSellerComponent from './component/Nextbar/Nextbar';
-import Slide1 from './component/Slide/Slide1';
-import Promotion1 from './component/Bank/Bank1';
-import CarouselContainer from './component/CarouselContainer';
-import Sideby from './component/Sideby';
-import MostPopular from './component/MostPopular/MostPopular';
-import Foot from './component/Foot/Foot';
+import Navbar from "./components/Navbar"
+import FirstSlider from "./components/FirstSlider";
+import SecondSlider from './components/SecondSlide';
+import styled from "styled-components";
+import Lists from "./components/Lists";
+import SmartBasket from "./components/SmartBasket";
+import BankOffer from "./components/BankOffer";
+//Images
+
 
 function App() {
   return (
-    <div className="App">
-      <CarouselContainer />
-      <Sideby />
-      <BestSellerComponent />
-      <Slide1 />
-      <Promotion1 />
-      <MostPopular />
-      <Foot />
-    </div>
+    <AppContainer>
+      <Navbar />
+      <FirstSlider />
+      <Lists />
+      <SecondSlider />
+      <BankOffer />
+      <SmartBasket />
+    </AppContainer>
   );
 }
 
 export default App;
+
+
+const AppContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
