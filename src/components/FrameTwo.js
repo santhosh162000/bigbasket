@@ -63,15 +63,15 @@ const FrameTwoContainer = styled.div`
 width:210vh;
 display: flex;
 justify-content: center;
-margin-left: 10vh;
+
 
 >span {
     width: 180vh;
+    margin-left: 20vh;
 }
 `;
 
 const FrameTwoHeader = styled.div`
-    border-bottom: 2px solid #E2E2E2;
     display: flex;
     margin: 10px 0;
     font-size: 24px;
