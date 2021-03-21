@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    font-family: Arial;
+    text-align: center;
+    line-height: 5vh;
+  }
+  .centered {
+  position: absolute;
+  bottom: 190px;
+  right: 645px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+.the{
+    font-size: 50px;
+}
+.hol{
+    font-size: 50px;
+}
+.ho{
+    font-size: 30px;
+}
