@@ -68,8 +68,8 @@ const SmartBasketHeader = styled.div`
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 195px;
-        height: 60px;
+        width: 25vh;
+        height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
@@ -86,8 +86,8 @@ const SmartBasketHeader = styled.div`
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 195px;
-        height: 60px;
+        width: 25vh;
+        height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
@@ -104,8 +104,8 @@ const SmartBasketHeader = styled.div`
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 195px;
-        height: 60px;
+        width: 25vh;
+        height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
@@ -122,8 +122,8 @@ const SmartBasketHeader = styled.div`
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 195px;
-        height: 60px;
+        width: 25vh;
+        height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
@@ -131,10 +131,10 @@ const SmartBasketHeader = styled.div`
         text-align: center;
     }
     > span:nth-child(3) {
-        width: 33%;
+        width: 55vh;
         display: flex;
         justify-content: space-between;
-        padding-left: 10px;
+        padding-left: 1vh;
     }
 
 `;
