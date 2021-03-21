@@ -131,11 +131,11 @@ const SmartBasketHeader = styled.div`
         text-align: center;
     }
     > span:nth-child(3) {
-        width: 50vh;
+        width: 53vh;
         display: flex;
         justify-content: space-between;
         padding-left: 1vh;
-        padding-right: 2vh;
+        padding-right: 1vh;
     }
 
 `;
