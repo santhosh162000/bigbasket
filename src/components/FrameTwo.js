@@ -65,7 +65,7 @@ display: flex;
 justify-content: center;
 
 >span {
-    width: 80%;
+    width: 85%;
 }
 `;
 
