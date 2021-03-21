@@ -67,7 +67,7 @@ justify-content: center;
 
 >span {
     width: 180vh;
-    margin-left: 20vh;
+    margin-left: 15vh;
 }
 `;
 
