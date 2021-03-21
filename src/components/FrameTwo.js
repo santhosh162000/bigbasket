@@ -1,12 +1,11 @@
-
 import React from 'react'
 import styled from "styled-components";
-
+import './FrameTwo.css';
 
 export default function FrameTwo(props) {
     let ImageArr = props.ImageArr;
     return (
-        <FrameTwoContainer>
+        <FrameTwoContainer className="try">
             <span>
                 <FrameTwoHeader>
                     <span>
@@ -60,10 +59,6 @@ export default function FrameTwo(props) {
 
 
 const FrameTwoContainer = styled.div`
-width:100%;
-display: flex;
-justify-content: center;
-
 >span {
     width: 200vh;
 }

@@ -1,0 +1,19 @@
+@media screen and (min-width: 900px) {
+    .try {
+        width:80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 20vh;
+    }
+        
+    }
+
+  @media screen and (max-width: 900px) {
+    .try {
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    }
+  
