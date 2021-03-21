@@ -1,0 +1,12 @@
+.hover-item {
+	background-color: #FFF;
+}
+
+.hover-item:hover {
+	color: green;
+    cursor: pointer;
+}
+
+.RightSide:hover {
+    cursor: pointer;
+}

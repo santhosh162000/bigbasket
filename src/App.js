@@ -7,6 +7,10 @@ import BankOffer from "./components/BankOffer";
 import List1 from "./components/List1";
 import FrameOne from "./components/FrameOne";
 import FrameTwo from "./components/FrameTwo";
+import ThirdSlider from "./components/ThirdSlider";
+import EndPortion from "./components/EndPortion";
+import Footer from "./components/Footer"
+
 //Images
 import BImageOne from "./assets/popular/1.jpg"
 import BImageTwo from "./assets/popular/2.jpg"
@@ -46,6 +50,20 @@ import BeImageThree from "./assets/beauty/3.jpg"
 import BeImageFour from "./assets/beauty/4.jpg"
 import BeImageFive from "./assets/beauty/5.jpg"
 
+import HoImageOne from "./assets/home/1.jpg"
+import HoImageTwo from "./assets/home/2.jpg"
+import HoImageThree from "./assets/home/3.jpg"
+import HoImageFour from "./assets/home/4.jpg"
+import HoImageFive from "./assets/home/5.jpg"
+import HoImageSix from "./assets/home/6.jpg"
+
+import BrImageOne from "./assets/store/1.png"
+import brImageTwo from "./assets/store/2.png"
+import BrImageThree from "./assets/store/3.png"
+import BrImageFour from "./assets/store/4.png"
+import BrImageFive from "./assets/store/5.png"
+import BrImageSix from "./assets/store/6.png"
+
 function App() {
   let mostPopular = [{image: BImageOne, name: "Masks, Gloves & Sanitizers"},{image: BImageTwo, name: "Ice Creams & Flavoured Milk"},{image: BImageThree, name: "Summer Fresh Face Washes"},{image: BImageFour, name: "Holi Colors & Pichkaris"}];
   let fruits = [{image: FImageTwo, name: "Fresh Fruits"},{image: FImageThree, name: "Daily Vegtables"},{image: FImageFour, name: "Cuts & Sprouts"},{image: FImageFive, name: "Exotic Corner"}];
@@ -54,7 +72,9 @@ function App() {
   let drinks = [{image: DbImageOne, name: "Tea & Coffee"},{image: DbmageTwo, name: "Cold Drinks"},{image: DbImageThree, name: "Juices"},{image: DbImageFour, name: "Health Drinks"}];
   let houseHolds = [{image: HImageOne, name: "Detergent Poweder"},{image: HmageTwo, name: "Liquid Detergent"},{image: HImageThree, name: "Home Cleaners"},{image: HImageFour, name: "Freshners & Repellents"}];
   let beauty = [{image: BeImageTwo, name: "Shaving & Men's Grooming"},{image: BeImageThree, name: "Summer Fun Deos & Sunscreens"},{image: BeImageFour, name: "Women Wellness"},{image: BeImageFive, name: "Oral Care"}];
-  
+  let home = [{image: HoImageOne, name: "Under ₹199"},{image: HoImageTwo, name: "₹200-₹399"},{image: HoImageThree, name: "Battery Elecricals"},{image: HoImageFour, name: "Summer Essentials"},{image: HoImageFive, name: "Stationery"},{image: HoImageSix, name: "Mops & Brooms"}];
+  let brand = [BrImageOne, brImageTwo, BrImageSix, BrImageThree, BrImageFour, BrImageFive];
+
   return (
     <AppContainer>
       <Navbar />
@@ -70,6 +90,11 @@ function App() {
       <FrameOne name="Drinks & Beverages" ImageArr={drinks} />
       <FrameOne name="Cleaning & Household" ImageArr={houseHolds} />
       <FrameTwo name="Beauty and Hygiene" splName="Budget Beauty" splImage={BeImageOne} ImageArr={beauty} />
+      <FrameOne name="Home & Kitchen Essentials" ImageArr={home} />
+      <ThirdSlider />
+      <FrameOne name="Brand Store" ImageArr={brand} />
+      <EndPortion />
+      <Footer />
     </AppContainer>
   );
 }
