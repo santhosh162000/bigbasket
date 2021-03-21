@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import Carosal from "./Carosal";
 import './SecondSlide.css';
-import ImageOne from "../assets/SecondCarosal/2.png"
+import ImageOne from "../assets/SecondCarosal/2a.jpg"
 
 export default function FirstSlider() {
     let ImageArr = [ImageOne];
