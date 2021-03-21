@@ -215,14 +215,15 @@ const FrameTwoImagesRight = styled.div`
    
    >span {
     border:0.5px solid #D5D5D5;
-    margin: 5px;
+    margin: 3px;
     > .Text {
             font-size: 20px;
             opacity: 0.9;
             padding-bottom: 4px;
         }
     >img{
-        margin: 3px;
+        margin: 0px;
+        display: flex;
     }
    }
    >span:hover{
