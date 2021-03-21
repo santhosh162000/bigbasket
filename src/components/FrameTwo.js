@@ -1,11 +1,12 @@
+
 import React from 'react'
 import styled from "styled-components";
-import './FrameTwo.css';
+
 
 export default function FrameTwo(props) {
     let ImageArr = props.ImageArr;
     return (
-        <FrameTwoContainer className="try">
+        <FrameTwoContainer>
             <span>
                 <FrameTwoHeader>
                     <span>
@@ -59,8 +60,13 @@ export default function FrameTwo(props) {
 
 
 const FrameTwoContainer = styled.div`
+width:210vh;
+display: flex;
+justify-content: center;
+margin-left: 10vh;
+
 >span {
-    width: 200vh;
+    width: 180vh;
 }
 `;
 
@@ -75,18 +81,19 @@ const FrameTwoHeader = styled.div`
 const FrameTwoImages = styled.div`
     display: flex;
     justify-content: space-around;
+    float: right;
 `;
 
 const FrameTwoImagesLeft = styled.div`
     border:0.5px solid #D5D5D5;
-    margin: 3px;
+    margin: 2px;
     > .Container {
         display: flex;
         > .CenterPart {
             margin: auto;
             font-size: 24px;
             opacity: 0.9;
-            padding-left: 45px;
+            padding-left: 5px;
         }
         > .RightPart {
             margin-left: auto;
@@ -206,17 +213,18 @@ const FrameTwoImagesLeft = styled.div`
 const FrameTwoImagesRight = styled.div`
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   
    >span {
     border:0.5px solid #D5D5D5;
-    margin: 5px;
+    margin: 3px;
     > .Text {
             font-size: 20px;
             opacity: 0.9;
             padding-bottom: 4px;
         }
     >img{
-        margin: 3px;
+        margin: 0px;
+        display: flex;
     }
    }
    >span:hover{
