@@ -65,7 +65,7 @@ display: flex;
 justify-content: center;
 
 >span {
-    width: 85%;
+    width: 80%;
 }
 `;
 
@@ -80,18 +80,19 @@ const FrameTwoHeader = styled.div`
 const FrameTwoImages = styled.div`
     display: flex;
     justify-content: space-around;
+    float: right;
 `;
 
 const FrameTwoImagesLeft = styled.div`
     border:0.5px solid #D5D5D5;
-    margin: 3px;
+    margin: 2px;
     > .Container {
         display: flex;
         > .CenterPart {
             margin: auto;
             font-size: 24px;
             opacity: 0.9;
-            padding-left: 45px;
+            padding-left: 5px;
         }
         > .RightPart {
             margin-left: auto;
@@ -211,7 +212,7 @@ const FrameTwoImagesLeft = styled.div`
 const FrameTwoImagesRight = styled.div`
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   
    >span {
     border:0.5px solid #D5D5D5;
     margin: 5px;
