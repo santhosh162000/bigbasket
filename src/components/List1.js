@@ -122,7 +122,7 @@ const SmartBasketHeader = styled.div`
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 25vh;
+        width: 20vh;
         height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
@@ -131,10 +131,12 @@ const SmartBasketHeader = styled.div`
         text-align: center;
     }
     > span:nth-child(3) {
-        width: 55vh;
+        width: 50vh;
         display: flex;
         justify-content: space-between;
-        padding-left: 1vh;
+        
+        padding-right: 3vh;
+        
     }
 
 `;
