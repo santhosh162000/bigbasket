@@ -3,7 +3,7 @@ import FirstSlider from "./components/FirstSlider";
 import SecondSlider from './components/SecondSlide';
 import styled from "styled-components";
 import SmartBasket from "./components/SmartBasket";
-import BankOffer from "./components/BankOffer";
+import BankOffer2 from "./components/BankOffer2";
 import List1 from "./components/List1";
 import FrameOne from "./components/FrameOne";
 import FrameTwo from "./components/FrameTwo";
@@ -81,7 +81,7 @@ function App() {
       <FirstSlider />
       <List1 />
       <SecondSlider />
-      <BankOffer />
+      <BankOffer2 />
       <SmartBasket />
       <FrameOne name="Most Popular" ImageArr={mostPopular} />
       <FrameTwo name="Fruits & Vegetables" splImage={FImageOne} splName="The Organic Store" ImageArr={fruits} />
