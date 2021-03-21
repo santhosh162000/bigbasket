@@ -3,10 +3,50 @@
 }
 
 .hover-item:hover {
-	color: green;
+	color: #84C225;
     cursor: pointer;
 }
 
 .RightSide:hover {
     cursor: pointer;
+}
+
+.hover-item1{
+    font-weight: bold;
+    color: #84C225;
+    }
+
+.hover-item1:hover {
+    cursor: pointer;
+}
+
+.play:hover {
+    cursor: pointer;
+}
+
+.play1:hover {
+    cursor: pointer;
+    color: #00ACED;
+}
+
+.play2:hover {
+    cursor: pointer;
+    color: #3B5998;
+}
+
+.play3:hover {
+    cursor: pointer;
+    color: #cc214c;
+}
+
+.play1 {
+    color: #00ACED;
+}
+
+.play2 {
+    color: #3B5998;
+}
+
+.play3 {
+    color: #cc214c;
 }

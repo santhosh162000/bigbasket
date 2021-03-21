@@ -63,6 +63,9 @@ const FrameOneImages = styled.div`
     }
     >span:hover{
         box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        >img {
+            cursor: pointer;
+            }
     }
 `;
 

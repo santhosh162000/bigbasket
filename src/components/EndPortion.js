@@ -11,9 +11,9 @@ export default function EndPortion() {
                 <EndPortionheader>
                     <span style={{ fontSize: 20, fontWeight: 600 }}>bigbasket – online grocery store</span>
                     <br />
-               <span style={{ fontSize: 13 }}> Did you ever imagine that the freshest of <span style={{ fontWeight: "bold", color: "#84C225" }}> fruits and vegetables</span>, top quality pulses and food grains, <span style={{ fontWeight: "bold", color: "#84C225" }}>dairy products</span> and hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? India’s first comprehensive online megastore, bigbasket.com, brings a whopping 20000+ products with more than 1000 brands, to over 4 million happy customers. From household cleaning products to beauty and makeup, bigbasket has everything you need for your daily needs. bigbasket.com is convenience personified We’ve taken away all the stress associated with shopping for daily essentials, and you can now order all your household products and even buy groceries online without travelling long distances or standing in serpentine queues. Add to this the convenience of finding all your requirements at one single source, along with great savings, and you will realize that bigbasket- India’s largest online supermarket, has revolutionized the way India shops for groceries. Online grocery shopping has never been easier. Need things fresh? Whether it’s fruits and vegetables or dairy and meat, we have this covered as well! Get fresh eggs, meat, fish and more online at your convenience. Hassle-free Home Delivery options
+               <span style={{ fontSize: 13 }}> Did you ever imagine that the freshest of <span class="hover-item1"> fruits and vegetables</span>, top quality pulses and food grains, <span class="hover-item1">dairy products</span> and hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? India’s first comprehensive online megastore, bigbasket.com, brings a whopping 20000+ products with more than 1000 brands, to over 4 million happy customers. From household cleaning products to beauty and makeup, bigbasket has everything you need for your daily needs. bigbasket.com is convenience personified We’ve taken away all the stress associated with shopping for daily essentials, and you can now order all your household products and even buy groceries online without travelling long distances or standing in serpentine queues. Add to this the convenience of finding all your requirements at one single source, along with great savings, and you will realize that bigbasket- India’s largest online supermarket, has revolutionized the way India shops for groceries. Online grocery shopping has never been easier. Need things fresh? Whether it’s fruits and vegetables or dairy and meat, we have this covered as well! Get fresh eggs, meat, fish and more online at your convenience. Hassle-free Home Delivery options
 <br />
-We deliver to 25 cities across India and maintain excellent delivery times, ensuring that all your products from groceries to snacks<span style={{ fontWeight: "bold", color: "#84C225" }}> branded foods </span>  reach you in time.
+We deliver to 25 cities across India and maintain excellent delivery times, ensuring that all your products from groceries to snacks<span class="hover-item1"> branded foods </span>  reach you in time.
                         <br />
                         <ul>
 <li>Slotted Delivery: Pick the most convenient delivery slot to have your grocery delivered. From early morning delivery for early birds, to late-night delivery for people who work the late shift, bigbasket caters to every schedule.</li>
@@ -27,7 +27,7 @@ We deliver to 25 cities across India and maintain excellent delivery times, ensu
                </p><p>
 Best quality products for our quality-conscious customers.
 </p><p>
-bigbasket.com is synonymous with superior quality and continues to strive for higher levels of customer trust and confidence, by taking feedback and giving our customers what they want. We have added the convenience of pre-cut fruits in our Fresho range. If it’s a product category you’re looking to shop from, we’ve made it convenient for you to access all products in a section easily. For instance, if you’re looking for beverages, you can order from a long list of <span style={{ fontWeight: "bold", color: "#84C225" }}>beverages</span> that include cool drinks, hot teas, fruit juices and more.
+bigbasket.com is synonymous with superior quality and continues to strive for higher levels of customer trust and confidence, by taking feedback and giving our customers what they want. We have added the convenience of pre-cut fruits in our Fresho range. If it’s a product category you’re looking to shop from, we’ve made it convenient for you to access all products in a section easily. For instance, if you’re looking for beverages, you can order from a long list of <span class="hover-item1">beverages</span> that include cool drinks, hot teas, fruit juices and more.
 </p><p>
 We are proud to be associated closely with the farmers from whom we source our fresh products. Most of our farm-fresh products are sourced directly from farmers, which not only ensures the best prices and freshest products for our customers but also helps the farmers get better prices. With more than 80 Organic Fruits and Vegetables and a wide range of organic staples, bigbasket has the largest range in the organic products category.
 </p><p>
@@ -40,7 +40,7 @@ When it comes to payment, we have made it easy for our customers can pay through
                 <EndPortionCenter>
                     <span>
                         <ul>
-                        <li style={{ fontSize: 16, color:"#84C225"  }}>bigbasket</li>
+                        <li style={{ fontSize: 18, color:"#84C225"  }}>bigbasket</li>
                         <li class="hover-item">About Us</li>
                         <li class="hover-item">In News</li>
                         <li class="hover-item">Green bigbasket</li>
@@ -55,7 +55,7 @@ When it comes to payment, we have made it easy for our customers can pay through
 
                     <span>
                         <ul>
-                       <li style={{ fontSize: 16, color:"#84C225"  }}>Help</li>
+                       <li style={{ fontSize: 18, color:"#84C225"  }}>Help</li>
                        <li class="hover-item">FAQs</li>
                        <li class="hover-item">Contact Us</li>
                        <li class="hover-item">bb Wallet FAQs</li>
@@ -66,16 +66,16 @@ When it comes to payment, we have made it easy for our customers can pay through
                     </span>
 
                     <span>
-                        <span style={{ fontSize: 16, color:"#84C225" ,paddingBottom: 20 }}>Download Our App</span>
-                        <img src="https://www.bbassets.com/static/v2369/custPage/build/content/img/Google-App-store-icon.png" />
-                        <img  src="https://www.bbassets.com/static/v2369/custPage/build/content/img/Apple-App-store-icon.png" />
+                        <span style={{ fontSize: 18, color:"#84C225" ,paddingBottom: 20 }}>Download Our App</span>
+                        <img class="play" src="https://www.bbassets.com/static/v2369/custPage/build/content/img/Google-App-store-icon.png" />
+                        <img class="play" src="https://www.bbassets.com/static/v2369/custPage/build/content/img/Apple-App-store-icon.png" />
                     </span>
                     <span >
-                        <span style={{ fontSize: 16, color: "#84C225" }}>Get Social With us</span>
+                        <span style={{ fontSize: 18, color: "#84C225" }}>Get Social With us</span>
                         <span>
-                            <Twitter color="#00ACED" />
-                            <Facebook color="#3B5998" />
-                            <Instagram color="#517FA4" />
+                            <Twitter class="play1" size={50} />
+                            <Facebook class="play2" size={50} />
+                            <Instagram class="play3" size={50} />
                         </span>
                     </span>
                 </EndPortionCenter>

@@ -29,7 +29,7 @@ export default function Navbar() {
                     <img src={logo}></img>
                 </HeaderBottomImage>
                 <HeaderBottomSearch>
-                    <input placeholder="Search for Products.." />
+                    <input type="text" placeholder="Search for Products.." />
                     <span>
                     <Search />
                     </span>
@@ -99,7 +99,7 @@ const HeaderTopLeft = styled.div`
         }
     }
 
-    >span:nth-child(2):hover{
+    >span:nth-child(n):hover{
         cursor: pointer;
         color: #84C225;
         >svg {
@@ -123,6 +123,9 @@ const HeaderBottomImage = styled.div`
     > img {
        width: 180px;
        margin-top: auto;
+    }
+    > img:hover {
+    cursor: pointer;
     }
 `;
 
@@ -158,6 +161,9 @@ const HeaderBottomSearch = styled.div`
         color:white;
         font-weight: bold;
     }
+    >span:nth-child(n):hover{
+        cursor: pointer;
+    }
     `;
 
 const HeaderBottomCart = styled.div`
@@ -185,6 +191,9 @@ const HeaderBottomCartEnd = styled.div`
                 font-size: 13px;
                 font-weight: bold;
                 padding-left: 8px;
+            }
+            >span:nth-child(n):hover{
+                cursor: pointer;
             }
 `;
 
@@ -226,7 +235,7 @@ const HeaderBottomNav = styled.div`
         }
     }
 
-    >span:nth-child(2):hover{
+    >span:nth-child(n):hover{
         background-color: #84C225;
         color: white;
         cursor: pointer;

@@ -27,6 +27,9 @@ const FourthSlideContainer = styled.div`
     > span {
         width: 80%;
     }
+    > span:hover {
+        cursor: pointer;
+    }
 `;
 
 const FourthSlideHeader = styled.div`

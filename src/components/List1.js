@@ -137,5 +137,8 @@ const SmartBasketHeader = styled.div`
         padding-left: 1vh;
         padding-right: 1vh;
     }
+    > span:nth-child(n):hover {
+        cursor: pointer;
+    }
 
 `;

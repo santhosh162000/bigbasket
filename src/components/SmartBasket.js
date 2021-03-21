@@ -53,6 +53,9 @@ const SmartBasketHeader = styled.div`
         color: white;
         font-size: 15px;
     }
+    >span:nth-child(2):hover {
+        cursor: pointer;
+    }
 
 `;
 
