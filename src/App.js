@@ -72,7 +72,7 @@ function App() {
   let drinks = [{image: DbImageOne, name: "Tea & Coffee"},{image: DbmageTwo, name: "Cold Drinks"},{image: DbImageThree, name: "Juices"},{image: DbImageFour, name: "Health Drinks"}];
   let houseHolds = [{image: HImageOne, name: "Detergent Poweder"},{image: HmageTwo, name: "Liquid Detergent"},{image: HImageThree, name: "Home Cleaners"},{image: HImageFour, name: "Freshners & Repellents"}];
   let beauty = [{image: BeImageTwo, name: "Shaving & Men's Grooming"},{image: BeImageThree, name: "Summer Fun Deos & Sunscreens"},{image: BeImageFour, name: "Women Wellness"},{image: BeImageFive, name: "Oral Care"}];
-  let home = [{image: HoImageOne, name: "Under ₹199"},{image: HoImageTwo, name: "₹200-₹399"},{image: HoImageThree, name: "Battery Elecricals"},{image: HoImageFour, name: "Summer Essentials"},{image: HoImageFive, name: "Stationery"},{image: HoImageSix, name: "Mops & Brooms"}];
+  let home = [{image: HoImageOne, name: "Under ₹199"},{image: HoImageTwo, name: "₹200-₹399"},{image: HoImageThree, name: "Battery Electricals"},{image: HoImageFour, name: "Summer Essentials"},{image: HoImageFive, name: "Stationery"},{image: HoImageSix, name: "Mops & Brooms"}];
   let brand = [BrImageOne, brImageTwo, BrImageSix, BrImageThree, BrImageFour, BrImageFive];
 
   return (
