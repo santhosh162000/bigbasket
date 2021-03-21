@@ -24,7 +24,7 @@ export default function List1() {
             <span>
             {
                 ImageArr.map((image, index) => (
-                    <img src={image} key={index} />
+                    <img src={image} height="55vh" key={index} />
                 ))
             }
             </span>
@@ -134,9 +134,8 @@ const SmartBasketHeader = styled.div`
         width: 50vh;
         display: flex;
         justify-content: space-between;
-        
-        padding-right: 3vh;
-        
+        padding-left: 1vh;
+        padding-right: 2vh;
     }
 
 `;
