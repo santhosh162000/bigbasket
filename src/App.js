@@ -57,12 +57,12 @@ import HoImageFour from "./assets/home/4.jpg"
 import HoImageFive from "./assets/home/5.jpg"
 import HoImageSix from "./assets/home/6.jpg"
 
-import BrImageOne from "./assets/store/1.png"
-import brImageTwo from "./assets/store/2.png"
-import BrImageThree from "./assets/store/3.png"
-import BrImageFour from "./assets/store/4.png"
-import BrImageFive from "./assets/store/5.png"
-import BrImageSix from "./assets/store/6.png"
+import BrImageOne from "./assets/store/1.jpg"
+import brImageTwo from "./assets/store/2.jpg"
+import BrImageThree from "./assets/store/3.jpg"
+import BrImageFour from "./assets/store/4.jpg"
+import BrImageFive from "./assets/store/5.jpg"
+import BrImageSix from "./assets/store/6.jpg"
 
 function App() {
   let mostPopular = [{image: BImageOne, name: "Masks, Gloves & Sanitizers"},{image: BImageTwo, name: "Ice Creams & Flavoured Milk"},{image: BImageThree, name: "Summer Fresh Face Washes"},{image: BImageFour, name: "Holi Colors & Pichkaris"}];
