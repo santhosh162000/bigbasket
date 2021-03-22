@@ -3,11 +3,11 @@ import styled from "styled-components";
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemCard from "./ItemCard";
-import ImageOne from "../assets/products/1.webp"
-import ImageTwo from "../assets/products/2.webp"
-import ImageThree from "../assets/products/3.webp"
-import ImageFour from "../assets/products/4.webp"
-import ImageFive from "../assets/products/5.webp"
+import ImageOne from "../assets/products/1.jpg"
+import ImageTwo from "../assets/products/2.jpg"
+import ImageThree from "../assets/products/3.jpg"
+import ImageFour from "../assets/products/4.jpg"
+import ImageFive from "../assets/products/5.jpg"
 import ImageSix from "../assets/products/6.webp"
 import ImageSeven from "../assets/products/7.webp"
 import ImageEight from "../assets/products/8.webp"
