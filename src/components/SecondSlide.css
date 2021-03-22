@@ -2,23 +2,23 @@
     position: relative;
     font-family: Arial;
     text-align: center;
-    line-height: 5vh;
+    line-height: 200%;
   }
   .centered {
   position: absolute;
-  bottom: 26.5vh;
-  right: 92.5vh;
+  bottom: 48%;
+  right: 58%;
   background-color: white;
   color: black;
   padding-left: 2vh;
   padding-right: 5.5vh;
   }
 .the{
-    font-size: 6vh;
+    font-size: 250%;
 }
 .hol{
-    font-size: 6vh;
+    font-size: 250%;
 }
 .ho{
-    font-size: 3vh;
+    font-size: 150%;
 }

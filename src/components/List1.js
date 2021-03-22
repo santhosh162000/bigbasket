@@ -48,22 +48,23 @@ const SmartBasketContainer = styled.div`
 width:100%;
 display: flex;
 justify-content: center;
-margin: 20px 0px;
+margin: 3vh 0px;
 
 >span {
-    width: 80%;
+    width: 160vh;
 }
 `;
 
 const SmartBasketHeader = styled.div`
     display: flex;
-    margin: 10px 0;
+    margin: 2vh 0;
     >span:nth-child(1) {
         margin-left: 45%;
-        font-size: 24px;
+        font-size: 24vh;
     }
 
     >span:nth-child(1) {
+        padding-top: 1vh;
         margin-left: auto;
         display:flex;
         align-items: center;
@@ -73,15 +74,16 @@ const SmartBasketHeader = styled.div`
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
-        font-size: 15px;
+        font-size: 15vh;
         text-align: center;
     }
     >span:nth-child(2) {
-        margin-left: 45%;
-        font-size: 24px;
+        margin-left: 45vh;
+        font-size: 24vh;
     }
 
     >span:nth-child(2) {
+        padding-top: 1vh;
         margin-left: auto;
         display:flex;
         align-items: center;
@@ -91,33 +93,35 @@ const SmartBasketHeader = styled.div`
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
-        font-size: 15px;
+        font-size: 15vh;
         text-align: center;
     }
     >span:nth-child(4) {
-        margin-left: 45%;
-        font-size: 24px;
+        margin-left: 45vh;
+        font-size: 24vh;
     }
 
     >span:nth-child(4) {
+        padding-top: 1vh;
         margin-left: auto;
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 25vh;
+        width: 22vh;
         height: 8vh;
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
-        font-size: 15px;
+        font-size: 15vh;
         text-align: center;
     }
     >span:nth-child(5) {
-        margin-left: 45%;
-        font-size: 24px;
+        margin-left: 45vh;
+        font-size: 24vh;
     }
 
     >span:nth-child(5) {
+        padding-top: 1vh;
         margin-left: auto;
         display:flex;
         align-items: center;
@@ -127,15 +131,15 @@ const SmartBasketHeader = styled.div`
         border-radius: 5px;
         background-color: Gainsboro;
         color: black;
-        font-size: 15px;
+        font-size: 15vh;
         text-align: center;
     }
     > span:nth-child(3) {
-        width: 53vh;
+        width: 33%;
         display: flex;
         justify-content: space-between;
-        padding-left: 1vh;
-        padding-right: 1vh;
+        padding-left: 1.5vh;
+        padding-right: 1.5vh;
     }
     > span:nth-child(n):hover {
         cursor: pointer;

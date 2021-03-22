@@ -21,7 +21,7 @@ export default function FirstSlider() {
 const SecondSlideContainer = styled.div`
     display: flex;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 8vh 0px;
     width: 100%;
     > span {
         width: 80%;

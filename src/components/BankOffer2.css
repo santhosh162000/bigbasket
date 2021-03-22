@@ -10,8 +10,8 @@
     }
   
   .row{
-      max-width: 180vh;
-      margin-left: 16vh;
+      max-width: 165vh;
+      margin-left: 10%;
   }
   .container img {
     border:0.5px solid #D5D5D5;
@@ -41,18 +41,18 @@
   .bottom-left {
     position: absolute;
     bottom: 11vh;
-    left: 7vh;
+    left: 6vh;
     font-size: 3vh;
   }
   .bottom-left1 {
     position: absolute;
     bottom: 5vh;
-    left: 10vh;
+    left: 9vh;
     font-size: 2.4vh;
   }
   .bottom-left2 {
     position: absolute;
     bottom: 0.6vh;
-    left: 28vh;
+    left: 26vh;
     font-size: 1.5vh;
   }

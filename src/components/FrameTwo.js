@@ -60,14 +60,14 @@ export default function FrameTwo(props) {
 
 
 const FrameTwoContainer = styled.div`
-width:210vh;
+width:100%;
 display: flex;
 justify-content: center;
 
 
 >span {
-    width: 180vh;
-    margin-left: 15vh;
+    width: 190%;
+    margin-left: 12%;
 }
 `;
 
