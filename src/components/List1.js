@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
-import ImageThree from "../assets/23.png"
-import ImageFour from "../assets/24.png"
+import ImageThree from "../assets/23a.jpg"
+import ImageFour from "../assets/24a.jpg"
 
 
 export default function List1() {
