@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components";
-import ImageOne from "../assets/offer1.webp"
+import ImageOne from "../assets/offer1.jpg"
 import ImageTwo from "../assets/melon1.webp"
 import ImageThree from "../assets/meat1.webp"
 import ImageFour from "../assets/home1.webp"
