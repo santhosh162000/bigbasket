@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
 import Carosal from "./Carosal";
-import ImageOne from "../assets/ThirdCarosal/1.png"
-import ImageTwo from "../assets/ThirdCarosal/2.png"
-import ImageThree from "../assets/ThirdCarosal/3.png"
+import ImageOne from "../assets/ThirdCarosal/1.jpg"
+import ImageTwo from "../assets/ThirdCarosal/2.jpg"
+import ImageThree from "../assets/ThirdCarosal/3.jpg"
 
 export default function ThirdSlider() {
     let ImageArr = [ImageOne, ImageTwo, ImageThree];
