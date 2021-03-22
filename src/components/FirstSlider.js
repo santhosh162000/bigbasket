@@ -2,12 +2,12 @@ import React, {useState} from 'react'
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components";
-import ImageOne from "../assets/offer.png"
-import ImageTwo from "../assets/melon.png"
-import ImageThree from "../assets/meat.png"
-import ImageFour from "../assets/home.png"
-import ImageFive from "../assets/breakfast.png"
-import ImageSix from "../assets/facewash.png"
+import ImageOne from "../assets/offer1.webp"
+import ImageTwo from "../assets/melon1.webp"
+import ImageThree from "../assets/meat1.webp"
+import ImageFour from "../assets/home1.webp"
+import ImageFive from "../assets/breakfast1.webp"
+import ImageSix from "../assets/facewash1.webp"
 import { BorderBottom } from 'react-bootstrap-icons';
 
 export default function FirstSlider() {
@@ -55,13 +55,13 @@ export default function FirstSlider() {
             <span>
                 <span>
                 <span style={index == 0 ? ActiveTradeStyle : TradeStyle} onClick={() => handleChangeIndex(0)}>
-                         <span>Offers On<br /><span style={smallTextStyle}>staples</span></span>
+                         <span>Offer on<br /><span style={smallTextStyle}>Staples</span></span>
                         </span>
                         <span style={index == 1 ? ActiveTradeStyle : TradeStyle} onClick={() => handleChangeIndex(1)}>
-                         <span>Melon<br /><span style={smallTextStyle}> Mela</span></span>
+                         <span>Just Arrived<br /><span style={smallTextStyle}>Mangoes</span></span>
                         </span>
                         <span style={index == 2 ? ActiveTradeStyle : TradeStyle} onClick={() => handleChangeIndex(2)}>
-                         <span>Fresho<br /><span style={smallTextStyle}>Meat</span></span>
+                         <span>Indi Secrets<br /><span style={smallTextStyle}>Chikkia</span></span>
                     </span>
                     <span style={index == 3 ? ActiveTradeStyle : TradeStyle} onClick={() => handleChangeIndex(3)}>
                          <span>Home<br /><span style={smallTextStyle}>Kitchen</span></span>
