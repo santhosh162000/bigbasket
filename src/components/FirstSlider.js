@@ -3,11 +3,11 @@ import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components";
 import ImageOne from "../assets/offer1.jpg"
-import ImageTwo from "../assets/melon1.webp"
-import ImageThree from "../assets/meat1.webp"
-import ImageFour from "../assets/home1.webp"
-import ImageFive from "../assets/breakfast1.webp"
-import ImageSix from "../assets/facewash1.webp"
+import ImageTwo from "../assets/melon1.jpg"
+import ImageThree from "../assets/meat1.jpg"
+import ImageFour from "../assets/home1.jpg"
+import ImageFive from "../assets/breakfast1.jpg"
+import ImageSix from "../assets/facewash1.jpg"
 import { BorderBottom } from 'react-bootstrap-icons';
 
 export default function FirstSlider() {
