@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from "styled-components";
 import { Telephone, GeoAlt, ChevronCompactDown, Basket2Fill, Person, Search, TagFill } from 'react-bootstrap-icons';
 import logo from "../assets/BigBasketLogo.jpg"
 
 export default function Navbar() {
+    const [state, setstate] = useState(false)
     return (
 
             <HeaderContainer>
@@ -29,7 +30,7 @@ export default function Navbar() {
                     <img src={logo}></img>
                 </HeaderBottomImage>
                 <HeaderBottomSearch>
-                    <input type="text" placeholder="Search for Products.." />
+                    <input type="text" placeholder="Search for Products.."/>
                     <span>
                     <Search />
                     </span>
@@ -47,8 +48,25 @@ export default function Navbar() {
                 </HeaderBottom>
                 <HeaderBottomNav>
                 <span>
-                        Shop by category
-                        <ChevronCompactDown />
+                        
+                        <select style={{marginTop:"0px",width:"250px",height:"35px", backgroundColor:"#84C225", color:"white", fontWeight:"bold"}}>
+                <option backgroundColor="white">SHOP BY CATEGORY</option>
+                <option>Fruits & Vegetables</option><hr/>
+                <option>Foodgrains, Oil & Masala</option><hr/>
+                <option>Bakery, Cakes & Dairy</option><hr/>
+                <option>Beverages</option><hr/>
+                <option>Snacks & Branded Foods</option><hr/>
+                <option>Beauty & Hygiene</option><hr/>
+                <option>Cleaning & Household</option><hr/>
+                <option>Kitchen, Garden & Pets</option><hr/>
+                <option>Eggs, Meat & Fish</option><hr/>
+                <option>Gourmet & World Food</option><hr/>
+                <option>Baby Care</option><hr/>
+                <option>View All</option>
+
+             </select>
+                        
+
                 </span>
                 <span>
                     <TagFill />
@@ -99,7 +117,7 @@ const HeaderTopLeft = styled.div`
         }
     }
 
-    >span:nth-child(n):hover{
+    >span:nth-child(2):hover{
         cursor: pointer;
         color: #84C225;
         >svg {
@@ -123,9 +141,6 @@ const HeaderBottomImage = styled.div`
     > img {
        width: 180px;
        margin-top: auto;
-    }
-    > img:hover {
-    cursor: pointer;
     }
 `;
 
@@ -161,9 +176,6 @@ const HeaderBottomSearch = styled.div`
         color:white;
         font-weight: bold;
     }
-    >span:nth-child(n):hover{
-        cursor: pointer;
-    }
     `;
 
 const HeaderBottomCart = styled.div`
@@ -192,9 +204,6 @@ const HeaderBottomCartEnd = styled.div`
                 font-weight: bold;
                 padding-left: 8px;
             }
-            >span:nth-child(n):hover{
-                cursor: pointer;
-            }
 `;
 
 const HeaderBottomNav = styled.div`
@@ -206,7 +215,7 @@ const HeaderBottomNav = styled.div`
     justify-content: start;
     border: 1px solid #F2F2F2;
 
-    >span:nth-child(1) {
+    /*>span:nth-child(1) {
         text-transform: uppercase;
         font-weight: bold;
         padding: 6px 6px;
@@ -217,7 +226,7 @@ const HeaderBottomNav = styled.div`
         >svg {
             margin-left: 30px;
         }
-    }
+    }*/
 
     >span:nth-child(2) {
         display: flex;
@@ -235,7 +244,7 @@ const HeaderBottomNav = styled.div`
         }
     }
 
-    >span:nth-child(n):hover{
+    >span:nth-child(2):hover{
         background-color: #84C225;
         color: white;
         cursor: pointer;
